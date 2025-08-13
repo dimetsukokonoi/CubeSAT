@@ -1,4 +1,4 @@
-# CanSat Project
+# CubeSat Project
 
 ## Overview
 
