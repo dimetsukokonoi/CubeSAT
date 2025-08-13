@@ -2,7 +2,7 @@
 
 ## Overview
 
-This CubeSat project is a compact, functional prototype of a satellite system built within the volume and shape of a standard soda can. Using an ESP32 microcontroller combined with multiple sensors, it collects and transmits environmental and positional data during flight, demonstrating core concepts of aerospace telemetry and embedded systems.
+This CubeSat project is a compact, functional prototype of a satellite system built within the volume and shape of a standard cube. Using an ESP32 microcontroller combined with multiple sensors, it collects and transmits environmental and positional data during flight, demonstrating core concepts of aerospace telemetry and embedded systems.
 
 The primary objectives of this project are to design, build, and deploy a cost-effective CanSat capable of capturing atmospheric pressure, temperature, acceleration, orientation, magnetic field, and GPS position data. This project showcases skills in hardware integration, embedded programming, sensor data acquisition, and real-time telemetry.
 
@@ -51,14 +51,13 @@ Sample telemetry data from test flights is stored in the `/data/sample_telemetry
 1. Connect the hardware as per the wiring diagram in `/hardware/wiring_diagram.png`.  
 2. Flash the firmware located in `/firmware/main.ino` using the Arduino IDE or compatible tools.  
 3. Power the CubeSat and monitor data output via serial or onboard logging.  
-4. Analyze flight data using the sample CSV files and graphs provided.  
+4. Analyze flight data using the sample CSV files and graphs provided by the sensors. 
 
 ---
 
 ## Project Status
 
-The CanSat prototype has completed multiple flight tests with stable sensor readings and reliable telemetry transmission. Ongoing work includes optimizing power consumption and improving GPS fix accuracy under varying flight conditions.
-
+The CubeSat prototype has completed multiple flight tests with stable sensor readings and reliable telemetry transmission. Ongoing work includes optimizing power consumption and improving GPS fix accuracy under varying flight conditions. Gradually improving the repository—more updates coming soon!
 ---
 
 ## Contributors
