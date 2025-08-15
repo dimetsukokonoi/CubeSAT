@@ -6,7 +6,7 @@ This section describes how we powered the **ESP32** using a 3-cell battery, UPS 
 
 ## 🛠 Components Used
 
-- **One Cell Battery** (Used **three cells** due to voltage limitations) 🔋  
+- **One Cell Battery** (Used **three cells** in [circuit design](circuit.image.png) due to model limitations) 🔋  
 - **UPS Booster Module** ⚡  
 - **Mini Buck Converter** ⬇️  
 - **ESP32 Microcontroller** 🖥️  
@@ -16,8 +16,7 @@ This section describes how we powered the **ESP32** using a 3-cell battery, UPS 
 ## ⚡ Power Flow
 
 1. **Battery Output:**  
-   - Each cell provides **3.7V–4.2V**  
-   - Three cells connected together → total output ~ **11.1V nominal**  
+   - Each cell provides **3.7V–4.2V**   
 
 2. **Voltage Boost:**  
    - Connected to **UPS Booster Module**  
@@ -37,9 +36,9 @@ This section describes how we powered the **ESP32** using a 3-cell battery, UPS 
 
 - The **UPS booster** ensures voltage stability even if the battery level drops.  
 - The **buck converter** provides a clean, regulated 5V for the ESP32.  
-- Proper **GND connection** is essential to avoid damage.  
+- A proper **GND connection** is essential to avoid damage.  
 
 ---
 
-> _Pro Tip:_ Think of the flow as:  
+A flowchart to easily understand
 > **Battery → UPS Booster → Buck Converter → ESP32**
