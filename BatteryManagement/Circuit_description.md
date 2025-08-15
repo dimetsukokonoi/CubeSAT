@@ -6,7 +6,7 @@ This section describes how we powered the **ESP32** using a 3-cell battery, UPS 
 
 ## 🛠 Components Used
 
-- **One Cell Battery** (Used **three cells** in [circuit design](circuit.image.png) due to model limitations) 🔋  
+- **One Cell Battery** (Used **three cells** in [circuit design](circuit_image.png) due to model limitations) 🔋  
 - **UPS Booster Module** ⚡  
 - **Mini Buck Converter** ⬇️  
 - **ESP32 Microcontroller** 🖥️  
