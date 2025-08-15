@@ -4,7 +4,7 @@
 
 This CubeSat project is a compact, functional prototype of a satellite system built within the volume and shape of a standard cube. Using an ESP32 microcontroller combined with multiple sensors, it collects and transmits environmental and positional data during flight, demonstrating core concepts of aerospace telemetry and embedded systems.
 
-![CubeSat Prototype](images/cubesat.png)
+![CubeSat Prototype](images/cubeSAT.png)
 
 The primary objectives of this project are to design, build, and deploy a cost-effective CanSat capable of capturing atmospheric pressure, temperature, acceleration, orientation, magnetic field, and GPS position data. This project showcases skills in hardware integration, embedded programming, sensor data acquisition, and real-time telemetry.
 
